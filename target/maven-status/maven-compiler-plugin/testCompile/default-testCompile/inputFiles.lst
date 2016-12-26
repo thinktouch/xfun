@@ -1,0 +1,3 @@
+/usr/local/codespace/java/xfun/src/test/java/com/xfun/demos/cache/ehcache/UserManagedCacheTest.java
+/usr/local/codespace/java/xfun/src/test/java/com/xfun/demos/cache/ehcache/CacheManagerTest.java
+/usr/local/codespace/java/xfun/src/test/java/com/xfun/demos/cache/redis/JedisClusterTest.java

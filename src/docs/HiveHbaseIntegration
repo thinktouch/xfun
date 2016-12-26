@@ -1,0 +1,4 @@
+CREATE EXTERNAL TABLE msg_online(key string, sender string, sendtime string, receiver string)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = "info:from,info:send_time,info:to")
+TBLPROPERTIES("hbase.table.name" = "msg_online", "hbase.mapred.output.outputtable" = "msg_online");
