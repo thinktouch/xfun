@@ -6,7 +6,7 @@
 
     <groupId>com.xfun.demos</groupId>
     <artifactId>xfun</artifactId>
-    <version>xfun-common-1.0.0</version>
+    <version>common-1.0.0</version>
 
 <dependencies>
     <dependency>
