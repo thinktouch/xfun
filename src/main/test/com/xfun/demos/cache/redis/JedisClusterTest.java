@@ -7,8 +7,6 @@ import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.sun.scenario.Settings.set;
-
 /**
  * Created by xfun on 11/23/16.
  */

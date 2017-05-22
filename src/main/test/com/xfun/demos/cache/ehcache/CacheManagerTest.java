@@ -8,8 +8,6 @@ import org.ehcache.config.builders.ResourcePoolsBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Iterator;
-
 /**
  * Created by xfun on 11/4/16.
  */
