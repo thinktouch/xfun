@@ -1,4 +1,4 @@
-package com.xfun.demos.hbase;
+package com.xfun.demo.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;
