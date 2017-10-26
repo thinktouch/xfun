@@ -44,7 +44,7 @@ public class FileUtil {
      *
      * @param filePath
      */
-    public static void writeFileByLine(List<Object> content, String filePath, String fileName) {
+    public static void writeFileByLine(List<Integer> content, String filePath, String fileName) {
         BufferedWriter bufWriter = null;
         try {
             File path = new File(filePath);
@@ -56,7 +56,7 @@ public class FileUtil {
                 file.createNewFile();
             }
             bufWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file)));
-            for(Object temp : content){
+            for(int temp : content){
                 bufWriter.write(temp + "\n");
             }
         } catch (Exception e) {
